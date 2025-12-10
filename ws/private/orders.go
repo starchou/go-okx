@@ -3,9 +3,9 @@ package private
 import (
 	"encoding/json"
 
-	"github.com/iaping/go-okx/common"
-	"github.com/iaping/go-okx/rest/api/trade"
-	"github.com/iaping/go-okx/ws"
+	"github.com/starchou/go-okx/common"
+	"github.com/starchou/go-okx/rest/api/trade"
+	"github.com/starchou/go-okx/ws"
 )
 
 type HandlerOrders func(EventOrders)
